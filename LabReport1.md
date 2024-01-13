@@ -26,7 +26,7 @@ The `ls` command is used to list out all the files and folders in the current wo
 <br>
 
 ![Image](ls_blank.png)
-> Here the `ls` command is not followed by a path. So, the files and folders in the current working directory is printed. Here the current working directory is `/home/` which contains the `/lecture1/` folder. Therefore, `/lecture1/` is printed out.
+> Here the `ls` command is not followed by a path. So, the files and folders in the current working directory is printed. Here the current working directory is `/home/` which contains the `lecture1/` folder. Therefore, `lecture1` is printed out.
 <br>
 
 ![Image](ls_folder.png)
