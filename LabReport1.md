@@ -45,18 +45,18 @@ The `cat` command prints the contents of one or more files whose paths are provi
 <br>
 
 ![Image](cat_blank.png)
-> The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process.
+> The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process. The current working directory remains as `home/`.
 <br>
 
 ![Image](cat_folder.png)
-> The `cat` command does not work if we provide the path of a directory. This is because it can not read the contents of a folder. Instead, it errors out by stating that `lecture1/` is a directory.
+> The `cat` command does not work if we provide the path of a directory. This is because it can not read the contents of a folder. Instead, it errors out by stating that `lecture1/` is a directory. The current working directory remains as `home/`.
 <br>
 
 ![Image](cat_file.png)
-> Here the `cat` command reads the contents of the file provided and prints it out.
+> Here the `cat` command reads the contents of the file provided and prints it out. The current working directory remains as `home/`.
 <br>
 
 ![Image](cat_file2.png)
-> This command can be used to read the contents of one or more files. In this case, I provided 2 file paths and the `cat` command read the contents of both files and printed them out in the same as I provided the paths.
+> This command can be used to read the contents of one or more files. In this case, I have provided 2 file paths and the `cat` command reads the contents of both files and printed them out in the same as I provided the paths. The current working directory remains as `home/`.
 <br>
 
