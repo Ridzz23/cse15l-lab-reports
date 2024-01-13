@@ -34,7 +34,7 @@ The `ls` command is used to list out all the files and folders in the current wo
 <br>
 
 ![Image](ls_file.png)
-> Since the `ls` command is used with a path to a file, it can not "list" the files or folders which are in the given path (as the file does not contain any files or folders). So, instead it just prints the path of the file as we have provided in the argument.
+> Since the `ls` command is used with a path to a file, it can not "list" the files or folders which are in the given path (as the file does not contain any files or folders). So, instead it just prints the path of the file as we have provided in the argument. The current working directory remains as `home/`.
 <br>
 
 ---
