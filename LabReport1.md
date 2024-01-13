@@ -16,7 +16,7 @@ The `cd` command allows us to change the current working directory to a specific
 <br>
 
 ![Image](cd_file.png)
-> The `cd` command does not accept a file as an argument. Here I have provided `Hello.java` as the argument and therefore it has caused an error. Hence the current working directory does not change. The current working directory remains `home/`.
+> The `cd` command does not accept a file as an argument as it can not "change directory" to a file path. Here I have provided `Hello.java` as the argument and therefore it has caused an **error**. Hence the current working directory does not change. The current working directory remains `home/`.
 <br>
 
 ---
@@ -49,7 +49,7 @@ The `cat` command prints the contents of one or more files whose paths are provi
 <br>
 
 ![Image](cat_folder.png)
-> The `cat` command does not work if we provide the path of a directory. This is because it can not read the contents of a folder. Instead, it errors out by stating that `lecture1/` is a directory. The current working directory remains as `home/`.
+> The `cat` command does not work if we provide the path of a directory. This is because it can not read the contents of a folder. Instead, it causes an **error** and states that `lecture1/` is a directory. The current working directory remains as `home/`.
 <br>
 
 ![Image](cat_file.png)
