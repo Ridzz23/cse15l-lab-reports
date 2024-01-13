@@ -8,6 +8,7 @@ The `cd` command allows us to change the current working directory to a specific
 
 ![Image](cd_blank.png)
  > Since I have not provided any argument after `cd`, the current working directory does not change. The current working directory remains `/home`.
+<br>
 
  
 ![Image](cd_folder.png)
