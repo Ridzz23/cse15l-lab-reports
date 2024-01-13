@@ -40,4 +40,17 @@ The `ls` command is used to list out all the files and folders in the current wo
 
 The `cat` command prints the contents of one or more files whose paths are provided. This command must be followed by one or more paths of specific files.
 
+![Image](cat_blank.png)
+> The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process.
+
+
+
+![Image](cat_folder.png)
+> The `cat` command does not work if we provide the path of a directory. This is because it can not read the contents of a folder. Instead, it errors out by stating that `lecture1/` is a directory.
+
+
+
+![Image](cat_file.png)
+>
+
 ---
