@@ -10,7 +10,7 @@ The `cd` command allows us to change the current working directory to a specific
  > Since I have not provided any argument after `cd`, the current working directory does not change. The current working directory remains `/home`.
 
 ![Image](cd_file.png)
-> The `cd` command does not accept a file as an argument. Here I have provided `Hello.java` as the argument and therefore it has caused an error.
+> The `cd` command does not accept a file as an argument. Here I have provided `Hello.java` as the argument and therefore it has caused an error. Hence the current working directory does not change.
 
 
 
