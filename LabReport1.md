@@ -12,7 +12,7 @@ The `cd` command allows us to change the current working directory to a specific
 <br>
 
 ![Image](cd_folder.png)
-> Here the `cd` command is followed by the path of the folder `lecture1/`. This is an acceptable argument. Therefore, the current working directory changes to `/home/lecture1/`.
+> Here the `cd` command is followed by the path of the folder `lecture1/`. This is an acceptable argument. Therefore, the current working directory changes from `/home/` to `/home/lecture1/`.
 <br>
 
 ![Image](cd_file.png)
