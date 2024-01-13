@@ -60,4 +60,3 @@ The `cat` command prints the contents of one or more files whose paths are provi
 > This command can be used to read the contents of one or more files. In this case, I provided 2 file paths and the `cat` command read the contents of both files and printed them out in the same as I provided the paths.
 <br>
 
----
