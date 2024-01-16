@@ -43,6 +43,7 @@ The `ls` command is used to list out all the files and folders in the current wo
 ![Image](ls_file.png)
 > Since the `ls` command is used with a path to a file, it can not "list" the files or folders which are in the given path (as the file does not contain any files or folders). So, instead it just prints the path of the file as we have provided in the argument. The current working directory remains as `home/`.
 <br>
+<br>
 
 ---
 
@@ -50,17 +51,21 @@ The `ls` command is used to list out all the files and folders in the current wo
 
 The `cat` command prints the contents of one or more files whose paths are provided. This command must be followed by one or more paths of specific files.
 <br>
+<br>
 
 ![Image](cat_blank.png)
 > The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process. The current working directory remains as `home/`.
+<br>
 <br>
 
 ![Image](cat_folder.png)
 > The `cat` command does not work if we provide the path of a directory. This is because it can not read the contents of a folder. Instead, it causes an **error** and states that `lecture1/` is a directory. The current working directory remains as `home/`.
 <br>
+<br>
 
 ![Image](cat_file.png)
 > Here the `cat` command reads the contents of the file provided and prints it out. The current working directory remains as `home/`.
+<br>
 <br>
 
 ![Image](cat_file2.png)
