@@ -1,6 +1,5 @@
 # Lab Report 1
 
----
 
 # `cd`
 
@@ -19,7 +18,6 @@ The `cd` command allows us to change the current working directory to a specific
 > The `cd` command does not accept a file as an argument as it can not "change directory" to a file path. Here I have provided `Hello.java` as the argument and therefore it has caused an **error**. Hence the current working directory does not change. The current working directory remains `home/`.
 <br>
 
----
 # `ls`
 
 The `ls` command is used to list out all the files and folders in the current working directory or given path. This command may or may not be followed by a path. 
@@ -37,7 +35,6 @@ The `ls` command is used to list out all the files and folders in the current wo
 > Since the `ls` command is used with a path to a file, it can not "list" the files or folders which are in the given path (as the file does not contain any files or folders). So, instead it just prints the path of the file as we have provided in the argument. The current working directory remains as `home/`.
 <br>
 
----
 
 # `cat`
 
