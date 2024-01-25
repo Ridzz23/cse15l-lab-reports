@@ -45,7 +45,7 @@ The `cat` command prints the contents of one or more files whose paths are provi
 > The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process. The current working directory remains as `/home/`. This is not an error.
 
 ![Image](cat_text.png)
-> Once again I have not provided any arguments to the `cat` command. However, in the following line I have provided a string `Hello World!`. The `cat` command reprints this text on the next line. Following this, it continues to wait for a valid file name as an argument. I have used Ctrl + C to once again forcefully terminate the running process. The current working directory remains `/home/`. This is not an error.
+> Once again I have not provided any arguments to the `cat` command. However, in the following line I have provided a string `Hello World!`. The `cat` command reprints this text. Further, it continues to wait for a valid file name as an argument. I have used Ctrl + C to once again forcefully terminate the running process. The current working directory remains `/home/`. This is not an error.
 
 
 ![Image](cat_folder.png)
