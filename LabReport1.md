@@ -24,7 +24,7 @@ The `ls` command is used to list out all the files and folders in the current wo
 
 
 ![Image](ls_blank.png)
-> Here the `ls` command is not followed by a path. So, the files and folders in the current working directory is printed. Here the current working directory is `/home/` which contains the `lecture1/` folder. Therefore, `lecture1` is printed out. This is not an error.
+> Here the `ls` command is not followed by a path. So, the files and folders in the current working directory are printed. Here the current working directory is `/home/` which contains the `lecture1/` folder. Therefore, `lecture1` is printed out. This is not an error.
 
 
 ![Image](ls_folder.png)
@@ -57,6 +57,6 @@ The `cat` command prints the contents of one or more files whose paths are provi
 
 
 ![Image](cat_file2.png)
-> This command can be used to read the contents of one or more files. In this case, I have provided 2 file paths and the `cat` command reads the contents of both files and printed them out in the same as I provided the paths. The current working directory remains as `/home/`.
+> This command can be used to read the contents of one or more files. In this case, I have provided 2 file paths and the `cat` command reads the contents of both files and printed them out in the same order as I provided the paths. The current working directory remains as `/home/`.
 
 
