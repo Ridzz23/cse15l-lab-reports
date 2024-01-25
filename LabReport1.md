@@ -7,7 +7,7 @@ The `cd` command allows us to change the current working directory to a specific
 
 
 ![Image](cd_blank.png)
- > The current working directory before the cd command is `/home/lecture1/messages/`. After running the `cd` command with no arguments, the current working directory changes to /home/. So, `cd` followed by no arguments changes the current working directory to `/home/`. This is not an error.
+ > The current working directory before the cd command is `/home/lecture1/messages/`. After running the `cd` command with no arguments, the current working directory changes to `/home/`. So, `cd` followed by no arguments changes the current working directory to `/home/`. This is not an error.
 
 
 ![Image](cd_folder.png)
