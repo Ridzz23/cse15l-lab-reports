@@ -7,11 +7,11 @@ The `cd` command allows us to change the current working directory to a specific
 
 
 ![Image](cd_blank.png)
- > Since I have not provided any argument after `cd`, the current working directory does not change. The current working directory remains `home/`.
+ > Since I have not provided any argument after `cd`, the current working directory does not change. The current working directory remains `home/`. This is not an error.
 
 
 ![Image](cd_folder.png)
-> Here the `cd` command is followed by the path of the folder `lecture1/`. This is an acceptable argument. Therefore, the current working directory changes from `home/` to `home/lecture1/`.
+> Here the `cd` command is followed by the path of the folder `lecture1/`. This is an acceptable argument. Therefore, the current working directory changes from `home/` to `home/lecture1/`. This is not an error.
 
 
 ![Image](cd_file.png)
@@ -24,15 +24,15 @@ The `ls` command is used to list out all the files and folders in the current wo
 
 
 ![Image](ls_blank.png)
-> Here the `ls` command is not followed by a path. So, the files and folders in the current working directory is printed. Here the current working directory is `home/` which contains the `lecture1/` folder. Therefore, `lecture1` is printed out.
+> Here the `ls` command is not followed by a path. So, the files and folders in the current working directory is printed. Here the current working directory is `home/` which contains the `lecture1/` folder. Therefore, `lecture1` is printed out. This is not an error.
 
 
 ![Image](ls_folder.png)
-> Here the `ls` command is used with a path to the directory `lecture1/`. This is a valid argument. So, the files and folders which are within `lecture1/` are printed out. The current working directory remains as `home/`.
+> Here the `ls` command is used with a path to the directory `lecture1/`. This is a valid argument. So, the files and folders which are within `lecture1/` are printed out. The current working directory remains as `home/`. This is not an error.
 
 
 ![Image](ls_file.png)
-> Since the `ls` command is used with a path to a file, it can not "list" the files or folders which are in the given path (as the file does not contain any files or folders). So, instead it just prints the path of the file as we have provided in the argument. The current working directory remains as `home/`.
+> Since the `ls` command is used with a path to a file, it can not "list" the files or folders which are in the given path (as the file does not contain any files or folders). So, instead it just prints the path of the file as we have provided in the argument. The current working directory remains as `home/`. This is not an error.
 
 
 
@@ -42,7 +42,7 @@ The `cat` command prints the contents of one or more files whose paths are provi
 
 
 ![Image](cat_blank.png)
-> The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process. The current working directory remains as `home/`.
+> The `cat` command requires an argument. Since I did not provide an argument above, the `cat` command did not execute anything. Instead, it was waiting for an argument. This is because it can not read the contents of a file if there is no file path provided. I used Ctrl + C to forcefully terminate the running process. The current working directory remains as `home/`. This is not an error.
 
 
 ![Image](cat_folder.png)
@@ -50,7 +50,7 @@ The `cat` command prints the contents of one or more files whose paths are provi
 
 
 ![Image](cat_file.png)
-> Here the `cat` command reads the contents of the file provided and prints it out. The current working directory remains as `home/`.
+> Here the `cat` command reads the contents of the file provided and prints it out. The current working directory remains as `home/`. This is not an error.
 
 
 ![Image](cat_file2.png)
