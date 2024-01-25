@@ -57,6 +57,6 @@ The `cat` command prints the contents of one or more files whose paths are provi
 
 
 ![Image](cat_file2.png)
-> This command can be used to read the contents of one or more files. In this case, I have provided 2 file paths and the `cat` command reads the contents of both files and prints them out in the same order as I provided the paths. The current working directory remains as `/home/`.
+> This command can be used to read the contents of one or more files. In this case, I have provided 2 file paths. The `cat` command reads the contents of both files and prints them out in the same order as I provided the paths. The current working directory remains as `/home/`.
 
 
