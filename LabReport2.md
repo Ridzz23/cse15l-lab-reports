@@ -77,6 +77,9 @@ If this query is found then the string following is split to find the `user` and
       Here the `List = ["jpolitz: Hello\n"]` and its `size=1`.
 * Changes :
       The List changes from [] to `["jpolitz: Hello\n"]` and size changes from 0 to 1.
+      The url passed to the handleRequest() method changes from null to `URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hello&user=jpolitz")`.
+      The parameters array becomes `["s=Hello", "user="jpolitz"]`.
+      The text array and user array also changes based on the .split() method.
 
 ![Image](ChatServer1.png)
 
