@@ -113,7 +113,7 @@ If this query is found then the string following is split to find the `user` and
   By adding this public key to the authorized_keys file in the .ssh folder, I no longer have to enter my password every time I want to log into to my remote account. The following 
   image shows this :
     
- ![Image](loggedIn.png)
+  ![Image](loggedIn.png)
   
   
   # Part Three - What I have learned over the past 2 weeks
