@@ -66,11 +66,18 @@ Along with this code file I have used a Server.java file which defines the inter
 
 Brief Explanation of `ChatServer.java` code :
 The `ChatServer.java` file contains 2 classes - the Handler class and the ChatServer class. The Handler class checks whether the URL contains the `\add-message` query. 
-If this query is found then the string following is split to find the `user` and the `message`. Then, the string `<user> : <s> \n` is appended to the array `list` which keeps track of all the message strings.
+If this query is found then the string following is split to find the `user` and the `message`. Then, the string `<user> : <s> \n` is appended to the array `list` which keeps track of all the message strings. 
+
+![Image](ChatServer2.png)
+
+* All 3 methods in my code are called - handleRequest(), printingTheList() and main().
+* Methods and Fields :
+      The argument passed to the handleRequest method was `url` which contained the url of the.
+      The argument to main() was args which is the port number. The port number passed for this case was 4002.
+      printingTheList() takes not arguments.
+      Here the `List = ["jpolitz: Hello\n"]` and its `size=1`.
+      
+* 
 
 ![Image](ChatServer1.png)
-
-* Methods called in my code :
-*     All 3 methods in my code are called - handleRequest(), printingTheList() and main().
-
 
