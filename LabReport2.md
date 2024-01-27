@@ -104,10 +104,10 @@ If this query is found then the string following is split to find the `user` and
   > Using the`ls` and `cd` command I have been able to navigate into the `.ssh` folder. I had to use `ls -a` to display all the hidden folders as `.ssh` is a hidden folder.
   > As seen above, the `.ssh` folder contains 4 files. The private key file is `id_rsa` and the public key file is `id_rsa.pub`. The absolute paths for these files are given below :
   >
-  ![Image](AbsPaths.png)
+  ![Image](AbsPathsRemote.png)
 
-  > The absolute path of the private key is : `/Users/ridhis/.ssh/id_rsa`
-  > The absolute path of the public key is : `/Users/ridhis/.ssh/id_rsa.pub`
+  > The absolute path of the private key is : `/home/linux/ieng6/oce/95/rsrikanth/.ssh/id_rsa`
+  > The absolute path of the public key is : `/home/linux/ieng6/oce/95/rsrikanth/.ssh/id_rsa.pub`
   >   
 
   By adding this public key to the authorized_keys file in the .ssh folder, I no longer have to enter my password every time I want to log into to my remote account. The following 
