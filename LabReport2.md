@@ -94,4 +94,26 @@ If this query is found then the string following is split to find the `user` and
       The parameters array becomes `["s=Hi", "user="Ridhi"]`.  
       The text array and user array also changes based on the .split() method.  
       The field `chatmMessage` becomes `"Ridhi: Hi\n"`.  
-      Finally, the List changes from `["jpolitz: Hello\n"]` to `["jpolitz: Hello\n", "Ridhi: Hi\n"]` and size changes from 0 to 1.  
+      Finally, the List changes from `["jpolitz: Hello\n"]` to `["jpolitz: Hello\n", "Ridhi: Hi\n"]` and size changes from 0 to 1.
+
+
+  # Part Two - Private and Public Keys
+
+  ![Image](lsOnKeys.png)
+
+  > Using the`ls` and `cd` command I have been able to navigate into the `.ssh` folder. I had to use `ls -a` to display all the hidden folders as `.ssh` is a hidden folder.
+  > As seen above, the `.ssh` folder contains 4 files. The private key file is `id_rsa` and the public key file is `id_rsa.pub`. The absolute paths for these files are given below :
+  >
+  ![Image](AbsPaths.png)
+
+  > The absolute path of the private key is : `/Users/ridhis/.ssh/id_rsa`
+  > The absolute path of the public key is : `/Users/ridhis/.ssh/id_rsa.pub`
+
+  By adding this public key to the authorized_keys file in the .ssh folder, I no longer have to enter my password every time I want to log into to my remote account. The following 
+  image shows this :
+ ![Image](loggedIn.png)
+  
+  
+  # Part Three - What I have learned over the past 2 weeks
+
+  
