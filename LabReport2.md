@@ -111,6 +111,8 @@ If this query is found then the string following is split to find the `user` and
   > The absolute path of the public key is : `/home/linux/ieng6/oce/95/rsrikanth/.ssh/id_rsa.pub`
   
 
+  ![Image](AbsPathsLocal.png)
+  
   > These are the paths of the keys on the remote server :
   > The absolute path of the private key is : `/Users/ridhis/.ssh/id_rsa`
   > The absolute path of the public key is : `/Users/ridhis/.ssh/id_rsa.pub`
