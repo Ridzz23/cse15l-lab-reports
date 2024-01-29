@@ -127,9 +127,16 @@ If this query is found then the following string is split to find the `user` and
   
   # Part Three - What I have learned over the past 2 weeks
 
-  In the lab session of week 2, I learned how to set up and connect to a computer remotely. We used the command `ssh 
+  * In the lab session of week 2 I learned how to set up and connect to a computer remotely. We used the command `ssh 
   <username>@ieng6.ucsd.edu` to establish a secure connection between our laptop and a computer in the cse basement. This allowed us to run 
   various programs on the remote computer such as a java server file which created a remote server. Prior to this, I had only heard of 
-  remote servers and remote connections but had never explored the process of setting one up.
+  remote servers and remote connections but had never explored the process of setting one up. Setting up a remote connection was realy 
+  interesting for me !  
+  * In the lab session of week 3 we furthered our exploration into remote computers and learned how to create a private and public key such     that we would not need to enter our password each time we would like to connect remotely. I also learned 3 new commands :
+        -`scp` - It is used to securely transfer files over a network (between a local and remote device).
+        - `mkdir` - Allows us to create a new directory.
+        - `man` - Stand for manual and is used to display the details of any command passed as an argument.
+
+  Over the last 2 weeks we also worked on building a chat server which was a really interesting project !
 
   
