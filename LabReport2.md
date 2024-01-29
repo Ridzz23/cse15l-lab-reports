@@ -64,7 +64,7 @@ class ChatServer {
 ```
 Along with this code file I have used a Server.java file which defines the interface URLHandler, class ServerHttpHandler and class Server.
 
-Brief Explanation of `ChatServer.java` code :
+**Brief Explanation of `ChatServer.java` code :**  
 The `ChatServer.java` file contains 2 classes - the Handler class and the ChatServer class. The Handler class checks whether the URL contains the `\add-message` query. 
 If this query is found then the string following is split to find the `user` and the `message`. Then, the string `<user> : <s> \n` is appended to the array `list` which keeps track of all the message strings. 
 
