@@ -129,7 +129,7 @@ If this query is found then the following string is split to find the `user` and
 
   In the lab session of week 2, I learned how to set up and connect to a computer remotely. We used the command `ssh 
   <username>@ieng6.ucsd.edu` to establish a secure connection between our laptop and a computer in the cse basement. This allowed us to run 
-  various programs on the remote computer such as a java server file which created a remote server. Prior to this I had only heard of 
+  various programs on the remote computer such as a java server file which created a remote server. Prior to this, I had only heard of 
   remote servers and remote connections but had never explored the process of setting one up.
 
   
