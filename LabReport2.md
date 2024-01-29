@@ -137,6 +137,6 @@ If this query is found then the following string is split to find the `user` and
         - `mkdir` - Allows us to create a new directory.
         - `man` - Stand for manual and is used to display the details of any command passed as an argument.
 
-  Over the last 2 weeks we also worked on building a chat server which was a really interesting project !
+  Over the last 2 lab session we also worked on building a chat server which was a really interesting project !
 
   
