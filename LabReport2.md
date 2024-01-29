@@ -65,8 +65,8 @@ class ChatServer {
 Along with this code file I have used a Server.java file which defines the interface URLHandler, class ServerHttpHandler and class Server.
 
 **Brief Explanation of `ChatServer.java` code :**  
-The `ChatServer.java` file contains 2 classes - the Handler class and the ChatServer class. The Handler class checks whether the URL contains the `\add-message` query. 
-If this query is found then the string following is split to find the `user` and the `message`. Then, the string `<user> : <s> \n` is appended to the array `list` which keeps track of all the message strings. 
+The `ChatServer.java` file contains 2 classes - the Handler class and the ChatServer class. The Handler class checks whether the URL contains the `\add-message` query.  
+If this query is found then the following string is split to find the `user` and the `message`. Finally, the string `<user> : <s> \n` is appended to the array `list` which keeps track of all the message strings and the contents of the list is displayed.
 
 ![Image](ChatServer2.png)
 
@@ -79,7 +79,7 @@ If this query is found then the string following is split to find the `user` and
       The url passed to the handleRequest() method changes from null to `URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hello&user=jpolitz")`.  
       The parameters array becomes `["s=Hello", "user="jpolitz"]`.  
       The text array and user array also changes based on the .split() method.  
-      The field `chatmMessage` becomes `"jpolitz: Hello\n"`.  
+      The field `chatMessage` becomes `"jpolitz: Hello\n"`.  
       Finally, the List changes from `[]` to `["jpolitz: Hello\n"]` and size changes from 0 to 1.  
 
 ![Image](ChatServer1.png)
@@ -88,13 +88,13 @@ If this query is found then the string following is split to find the `user` and
 * Methods and Fields :  
       The argument passed to the handleRequest method was `url` which is `URI url=URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hi&user=Ridhi")`.  
       The argument to main() was args which is the port number - `args="4002"`.  
-      Here the `List = ["Ridhi: Hi\n"]` and its `size=2`.  
+      Here the `List = ["jpolitz: Hello\n", "Ridhi: Hi\n"]` and its `size=2`.  
 * Changes :  
       The url passed to the handleRequest() method changes from null to `URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hi&user=Ridhi")`.  
       The parameters array becomes `["s=Hi", "user="Ridhi"]`.  
       The text array and user array also changes based on the .split() method.  
-      The field `chatmMessage` becomes `"Ridhi: Hi\n"`.  
-      Finally, the List changes from `["jpolitz: Hello\n"]` to `["jpolitz: Hello\n", "Ridhi: Hi\n"]` and size changes from 0 to 1.
+      The field `chatMessage` becomes `"Ridhi: Hi\n"`.  
+      Finally, the List changes from `["jpolitz: Hello\n"]` to `["jpolitz: Hello\n", "Ridhi: Hi\n"]` and size changes from 1 to 2.
 
 
   # Part Two - Private and Public Keys
