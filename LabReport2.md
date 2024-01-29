@@ -133,7 +133,7 @@ If this query is found then the following string is split to find the `user` and
   various programs on the remote computer such as a java server file which created a remote server. Prior to this, I had only heard of 
   remote servers and remote connections but had never explored the process of setting one up. We also worked on building a search engine
   which was a really interesting project !
-          
+
   * In the lab session of week 3 we furthered our exploration into remote computers and learned how to create a private and public key such     that we would not need to enter our password each time we would like to connect remotely. I also learned 3 new commands :
         *`scp` - It is used to securely transfer files over a network (between a local and remote device).  
         * `mkdir` - Allows us to create a new directory.  
