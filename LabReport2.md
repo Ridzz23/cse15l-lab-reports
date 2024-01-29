@@ -114,7 +114,7 @@ If this query is found then the following string is split to find the `user` and
 
   ![Image](AbsPathsLocal.png)
   
-  > These are the paths of the keys on the remote server :  
+  > These are the paths of the keys on my computer :  
   > The absolute path of the private key is : `/Users/ridhis/.ssh/id_rsa`  
   > The absolute path of the public key is : `/Users/ridhis/.ssh/id_rsa.pub`
   >  
