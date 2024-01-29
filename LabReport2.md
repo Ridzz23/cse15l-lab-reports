@@ -72,7 +72,7 @@ If this query is found then the following string is split to find the `user` and
 
 * All 3 methods in my code are called - handleRequest(), printingTheList() and main().
 * Methods and Fields :  
-      The argument passed to the handleRequest method was `url` which is `URi url=URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hello&user=jpolitz")`.  
+      The argument passed to the handleRequest method was `url` which is `URI url=URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hello&user=jpolitz")`.  
       The argument to main() was args which is the port number - `args="4002"`.  
       Here the `List = ["jpolitz: Hello\n"]` and its `size=1`.  
 * Changes :  
@@ -84,7 +84,7 @@ If this query is found then the following string is split to find the `user` and
 
 ![Image](ChatServer1.png)
 
-* All 3 methods in my code are called - handleRequest(), printingTheList() and main().
+* All 3 methods in my code are called - handleRequest(), printingTheList() and main().  
 * Methods and Fields :  
       The argument passed to the handleRequest method was `url` which is `URI url=URI("https://0-0-0-0-4002-9cal1u4bsa735bcuusnesev140.us.edusercontent.com/add-message?s=Hi&user=Ridhi")`.  
       The argument to main() was args which is the port number - `args="4002"`.  
