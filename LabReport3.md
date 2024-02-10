@@ -75,6 +75,11 @@ The Fixed code :
 ![Image](count_2.png)
 > Here I have used the `-c` option to count the number of occurences of the word "is" in all the text file in the `biomed` directory. I have used `*.txt` to refer to all the files in the text files in the biomed directory. The output displays the number of times "is" appears in each text file in the directory. The picture above only displays a portion of these text files as the list is very long.
 
-2. The `grep` command can also be used with the 
+2. The `grep` command can also be used with the `--include` option. This option searches through the files which match the pattern specified by the `--include` option.
+
+![Image](include1.png)
+> The command above only searches through files which match the pattern `*1.txt` for the word "base pair". The `--include` option is followed by the pattern which the resulting file names must follow.
+
+![Image](include1.png)
 
 
