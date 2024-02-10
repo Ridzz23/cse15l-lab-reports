@@ -17,3 +17,23 @@ public class buggyProgram {
 }
 
 ```
+
+A failure-inducing input : 
+
+```
+    @Test
+    public void testFails() {
+        int negNums = bp.negativeCounter(listWithZeros);
+        assertEquals(2, negNums);
+    }
+```
+
+A non-failure inducing input:
+
+```
+    @Test
+    public void testPasses() {
+        int negNums = bp.negativeCounter(listWithBoth);
+        assertEquals(2, negNums);
+    }
+```
