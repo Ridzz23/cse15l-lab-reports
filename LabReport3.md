@@ -37,3 +37,31 @@ A non-failure inducing input:
         assertEquals(2, negNums);
     }
 ```
+
+The Bug :
+```
+    public int negativeCounter(int[] nums) {
+        int counter = 0;
+        for (int i : nums) {
+            if (i <= 0) {
+                counter++;
+            }
+        }
+        return counter;
+    }
+```
+
+
+The Fixed code :
+
+```
+    public int negativeCounter(int[] nums) {
+        int counter = 0;
+        for (int i : nums) {
+            if (i < 0) {
+                counter++;
+            }
+        }
+        return counter;
+    }
+```
