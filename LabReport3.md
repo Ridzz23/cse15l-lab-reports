@@ -78,7 +78,7 @@ The Fixed code :
 2. The `grep` command can also be used with the `--include` option. This option searches through the files which match the pattern specified by the `--include` option.
 
 ![Image](include1.png)
-> The command above only searches through files which match the pattern `*1.txt` for the word "base pair". The `--include` option is followed by the pattern which the resulting file names must follow.
+> The command above only searches through files which match the pattern `*1.txt` for the word "base pair". The `--include` option is followed by the pattern which the resulting file names must follow. The output contains all the text files which end with "1" and have the word "base pair". Further, the output prints the line in which the word in present.
 
 ![Image](include1.png)
 
