@@ -65,3 +65,11 @@ The Fixed code :
         return counter;
     }
 ```
+
+# Part Two -  Researching Commands : Grep
+
+1. The `grep` command can be used with the `-c` or `-count` option which counts the number of occurences of a pattern in a file.
+![Image](count_1.png)
+> Here I have used the `-c` option to count the number of occurences of the word "is" in the text file `1471-213X-1-3.txt` which is in the `Biomed` directory.
+
+
