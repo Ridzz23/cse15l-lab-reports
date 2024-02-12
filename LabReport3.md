@@ -4,28 +4,32 @@
 
 The buggy program (The averageWithoutLowest() method) :  
 ```
-public class buggyProgram {
-    public int negativeCounter(int[] nums) {
-        int counter = 0;
-        for (int i : nums) {
-            if (i <= 0) {
-                counter++;
-            }
-        }
-        return counter;
+  // Averages the numbers in the array (takes the mean), but leaves out the
+  // lowest number when calculating. Returns 0 if there are no elements or just
+  // 1 element in the array
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
     }
-}
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
 
 ```
 
 Test with a failure-inducing input : 
 
 ```
-    @Test
-    public void testFails() {
-        int negNums = bp.negativeCounter(listWithZeros);
-        assertEquals(2, negNums);
-    }
+@Test
+  public void testAverageFails(){
+    double[] arr = {1.0};
+    assertEquals(1.0, ArrayExamples.averageWithoutLowest(arr), 0.00);
+  }
 ```
 
 Test with a non-failure inducing input:
