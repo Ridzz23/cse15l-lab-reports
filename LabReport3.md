@@ -44,6 +44,15 @@ One of the JUnit test fails. The symptom :
 
 ![Image](err.png)
 > Here the `testReversedInPlace2` fails as `1` was expected at `input1[2]` but actually `2` was at `input1[2]`. The expected array was `{3,2,1,0}` but the actual array was `{3,2,2,3}`.
+
+The Buggy code : 
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
     
 The Fixed code :
 
@@ -59,6 +68,9 @@ The Fixed code :
     }
   }
 ```
+> To fix this code, I have creates a temporary array called `newArray` which stores the values of the input array `arr` in reversed order. The expression `newArray[i] = arr[arr.length - i - 1];` stores the reversed values in `newArray`. Then, because this method is suppose the reverse the element of the array in place, I replaced all the values in `arr` with the values in `newArray`. 
+All the JUnit tests pass now : 
+![Image](passed.png)
 
 # Part Two -  Researching Commands : Grep
 
