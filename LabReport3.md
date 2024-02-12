@@ -16,7 +16,7 @@ Test with a failure-inducing input :
 
 ```
 @Test 
-public void testReverseInPlaceFails() {
+public void testReverseInPlace2() {
     int[] input1 = { 0, 1, 2, 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3, 2, 1, 0 }, input1);
@@ -27,20 +27,24 @@ Test with a non-failure inducing input:
 
 ```
 @Test 
-public void testReverseInPlacePasses() {
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 ```
 
-The Bug :
+The bug is in the following expression :
 ```
 arr[i] = arr[arr.length - i - 1];
     
 ```
 
+One of the JUnit test fails. The symptom : 
 
+![Image](err.png)
+> Here the `testReversedInPlace2` fails as `1` was expected at `input1[2]` but actually `2` was at `input1[2]`. The expected array was `{3,2,1,0}` but the actual array was `{3,2,2,3}`.
+    
 The Fixed code :
 
 ```
