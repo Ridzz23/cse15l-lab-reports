@@ -69,6 +69,7 @@ The Fixed code :
   }
 ```
 > To fix this code, I have creates a temporary array called `newArray` which stores the values of the input array `arr` in reversed order. The expression `newArray[i] = arr[arr.length - i - 1];` stores the reversed values in `newArray`. Then, because this method is suppose the reverse the element of the array in place, I replaced all the values in `arr` with the values in `newArray`.    
+    
 All the JUnit tests pass now : 
 ![Image](passed.png)
 
