@@ -2,31 +2,32 @@
 
 # Part One - Bugs
 
-The buggy program (The averageWithoutLowest() method) :  
+I have chosen to test the reversedInPlace() method. This method contains a bug and with the help of the test cases and code I was able to identify the bug. The buggy program :  
 ```
-  static void reverseInPlace(int[] arr) {
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
+}
 
 ```
-
+The following test fails when the buggy program is run. The expected output from reversing the following array is `{3,2,1,0}`, however, the buggy program returns `{3,2,2,1}`. This is because the code rewrites the values of the original array while trying to find the reverse order. Due to this, when the program gets to the second half of the array, the expression `arr[arr.length - i - 1]` refers to the overwritten values in the first half of the array.   
 Test with a failure-inducing input : 
 
 ```
-  @Test 
-	public void testReverseInPlaceFails() {
+@Test 
+public void testReverseInPlaceFails() {
     int[] input1 = { 0, 1, 2, 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3, 2, 1, 0 }, input1);
-	}
+}
 ```
-
+Here, despite the program containing a bug, the test passes. This is beccause the loop body is only executed once. So, by the time the original array is overwritten, the program has exited the loop.    
 Test with a non-failure inducing input:
 
 ```
-	@Test 
-	public void testReverseInPlacePasses() {
+@Test 
+public void testReverseInPlacePasses() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
