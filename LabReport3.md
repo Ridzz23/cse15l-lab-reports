@@ -18,7 +18,7 @@ public class buggyProgram {
 
 ```
 
-A failure-inducing input : 
+Test with a failure-inducing input : 
 
 ```
     @Test
@@ -28,7 +28,7 @@ A failure-inducing input :
     }
 ```
 
-A non-failure inducing input:
+Test with a non-failure inducing input:
 
 ```
     @Test
