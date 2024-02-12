@@ -92,5 +92,9 @@ The Fixed code :
 ![Image](invert2.png)
 > Here the command searches through all the text files in the `911report` and prints out all the content which does not match the phrase "citizens to study". The output clearly shows which file each line corresponds to and the output is much larger than the image above.
 
+4. The option `-i` with `grep` ignores the case when searching for phrases/words in files. Generally, `grep` is case sensitive. The command is : `grep -i "phrase/word" files`
+
+![Image](case1.png)
+> In the first line I have run `grep` without using the `-i` option. Since `grep` is case sensitive, there are no matches found for the phrase "BaSe PaIR" in any of the text files in the `biomed` directory. In the following command, I have used the `-i` option so grep ignores the case and searches for the phrase "BaSe PaIR" in all the text files in the `biomed` directory. Since `grep -i` is not case sensitive, multiple matches of the phrase "base pair" were found in many text files. The output contains the filename and line which contains the phrase.
    
 
