@@ -84,3 +84,13 @@ The Fixed code :
 ![Image](include1.png)
 > The command above only searches through files which match the pattern `*2.txt` for the phrase "RRR-alpha-tocophery". There is only one file in the output. This is the only file in the biomed directory which ends with the number "2" and contains the phrase "RRR-alpha-tocophery".
 
+3. The `grep` command can also be used with the `-v` option which works as an invert match. This command prints out all the words in the specified files which do not match the specified phrase/word. The command is : `grep -v "phrase/word" files`
+
+![Image](invert1.png)
+> This prints out all the words in the `preface.txt` file which do not match the word "We". The output from this command is much longer as the file contains more text.
+
+![Image](invert2.png)
+> Here the command searches through all the text files in the `911report` and prints out all the content which does not match the phrase "citizens to study". The output clearly shows which file each line corresponds to and the output is much larger than the image above.
+
+   
+
