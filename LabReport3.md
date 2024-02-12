@@ -4,70 +4,55 @@
 
 The buggy program (The averageWithoutLowest() method) :  
 ```
-  // Averages the numbers in the array (takes the mean), but leaves out the
-  // lowest number when calculating. Returns 0 if there are no elements or just
-  // 1 element in the array
-  static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; }
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
     }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - 1);
-  }
 
 ```
 
 Test with a failure-inducing input : 
 
 ```
-@Test
-  public void testAverageFails(){
-    double[] arr = {1.0};
-    assertEquals(1.0, ArrayExamples.averageWithoutLowest(arr), 0.00);
-  }
+  @Test 
+	public void testReverseInPlaceFails() {
+    int[] input1 = { 0, 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3, 2, 1, 0 }, input1);
+	}
 ```
 
 Test with a non-failure inducing input:
 
 ```
-  @Test
-  public void testAveragePasses(){
-    double[] arr = {1.0, 2.0, 3.0};
-    assertEquals(2.5, ArrayExamples.averageWithoutLowest(arr), 0.00);
-  }
+	@Test 
+	public void testReverseInPlacePasses() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
 ```
 
 The Bug :
 ```
-    public int negativeCounter(int[] nums) {
-        int counter = 0;
-        for (int i : nums) {
-            if (i <= 0) {
-                counter++;
-            }
-        }
-        return counter;
-    }
+arr[i] = arr[arr.length - i - 1];
+    
 ```
 
 
 The Fixed code :
 
 ```
-    public int negativeCounter(int[] nums) {
-        int counter = 0;
-        for (int i : nums) {
-            if (i < 0) {
-                counter++;
-            }
-        }
-        return counter;
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
     }
+    for(int i=0; i<arr.length; i++){
+      arr[i] = newArray[i];
+    }
+  }
 ```
 
 # Part Two -  Researching Commands : Grep
