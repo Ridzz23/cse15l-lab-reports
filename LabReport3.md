@@ -2,7 +2,7 @@
 
 # Part One - Bugs
 
-The buggy program : 
+The buggy program (The averageWithoutLowest() method) :  
 ```
 public class buggyProgram {
     public int negativeCounter(int[] nums) {
