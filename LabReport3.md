@@ -35,11 +35,11 @@ Test with a failure-inducing input :
 Test with a non-failure inducing input:
 
 ```
-    @Test
-    public void testPasses() {
-        int negNums = bp.negativeCounter(listWithBoth);
-        assertEquals(2, negNums);
-    }
+  @Test
+  public void testAveragePasses(){
+    double[] arr = {1.0, 2.0, 3.0};
+    assertEquals(2.5, ArrayExamples.averageWithoutLowest(arr), 0.00);
+  }
 ```
 
 The Bug :
