@@ -89,7 +89,7 @@ All the JUnit tests pass now :
 ![Image](include1.png)
 > The command above only searches through files which match the pattern `*1.txt` for the phrase "base pair". The `--include` option is followed by the pattern which the resulting file names must follow. The output contains all the text files which end with "1" and have the phrase "base pair". Further, the output prints the line in which the phrase is present.
    
-![Image](include1.png)
+![Image](include2.png)
 > The command above only searches through files which match the pattern `*2.txt` for the phrase "RRR-alpha-tocophery". There is only one file in the output. This is the only file in the biomed directory which ends with the number "2" and contains the phrase "RRR-alpha-tocophery".
 
 * The `grep` command can also be used with the `-v` option which works as an invert match. This command prints out all the words in the specified files which do not match the specified phrase/word. The command is : `grep -v "phrase/word" files`
