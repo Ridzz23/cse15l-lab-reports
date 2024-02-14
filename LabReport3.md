@@ -2,7 +2,7 @@
 
 # Part One - Bugs
 
-I have chosen to test the reversedInPlace() method. This method contains a bug and with the help of the test cases and code I was able to identify the bug. The buggy program :  
+I have chosen to test the reversedInPlace() method. With the help of the test cases and the code I was able to identify the bug. The buggy program :  
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
