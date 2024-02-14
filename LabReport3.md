@@ -22,7 +22,7 @@ public void testReverseInPlace2() {
     assertArrayEquals(new int[]{ 3, 2, 1, 0 }, input1);
 }
 ```
-Here, despite the program containing a bug, the test passes. This is beccause the loop body is only executed once. So, by the time the original array is overwritten, the program has exited the loop.    
+Here, despite the program containing a bug, the test passes. This is because the loop body is only executed once. So, by the time the original array is overwritten, the program has exited the loop.    
 Test with a non-failure inducing input:
 
 ```
@@ -69,7 +69,7 @@ The Fixed code :
     }
   }
 ```
-> To fix this code, I have creates a temporary array called `newArray` which stores the values of the input array `arr` in reversed order. The expression `newArray[i] = arr[arr.length - i - 1];` stores the reversed values in `newArray`. Then, because this method is suppose the reverse the element of the array in place, I replaced all the values in `arr` with the values in `newArray`.    
+> To fix this code, I have created a temporary array called `newArray` which stores the values of the input array `arr` in reversed order. The expression `newArray[i] = arr[arr.length - i - 1];` stores the reversed values in `newArray`. Then, because this method is suppose the reverse the element of the array in place, I replaced all the values in `arr` with the values in `newArray`.    
     
 All the JUnit tests pass now : 
 ![Image](passed.png)
