@@ -108,6 +108,6 @@ All the JUnit tests pass now :
 ![Image](case2.png)
 > Here, `grep -i` seacrches for the word "GENES" (ignoring the case) in the text file `1471-2164-4-22.txt`. The command finds multiple matches such as "genes" and "GENES". The complete output from the command is shown in the image above.
 
-**Resources Used** : I have used the command `man grep` to view all the possible options offered by grep and understand them. Further to understand how to write these commands I have used the following website : https://www.gnu.org/software/grep/manual/grep.html
+**Resources Used** : I have used the command `man grep` to view all the possible options offered by grep and understand them. Further to understand how to write these commands I have used the following website : [Grep Manual](https://www.gnu.org/software/grep/manual/grep.html)
    
 
