@@ -26,7 +26,7 @@
 > The change has been made. Now I need to save the changes and exit the text editor. I press `:wq<enter>` to save and exit.
 
 
-# Step 5 - Run the tests, demonstrating that they fail
+# Step 5 - Run the tests, demonstrating that they now succeed
 
 # Step 6 - Commit and push the resulting change to your Github account
 
