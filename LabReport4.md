@@ -11,7 +11,7 @@ To log into ieng6 I typed `ssh rsrikanth@ieng6.ucsd.edu <enter>`. I wasn't promp
 ![Image](clone.png)
 
 Firstly, I typed out `rm -rf l<tab> <enter>` which tab completes the command to `rm -rf lab7/`. This deletes the `lab7` directory which is currently in my ieng6  account.    
-Then I copied `git@github.com:Ridzz23/lab7.git` using the keys `<Command-C>` and ran the command `git clone <Command-V> <enter>` to clone my fork of the `lab7` repository.
+Then I pressed the keys `<Command-C> git clone <Command-V> <enter>` to copy the ssh URL `git@github.com:Ridzz23/lab7.git` and clone my fork of the `lab7` repository.
 
 # Step 3 - Run the tests, demonstrating that they fail
 ![Image](failedTests.png)
