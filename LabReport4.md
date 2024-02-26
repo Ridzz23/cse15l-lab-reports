@@ -17,6 +17,8 @@
 
 # Step 4 - Edit the code file to fix the failing test
 
+![Image](vim.png)
+
 > Firstly, I typed `vim List<tab>.java` which tab completes to `vim ListExamples.java`. This allows me to enter the file `ListExamples.java` using the text editor `vim`.
 > To navigate to the line which needs to be fixed I press the following keys :
 > - `<down arrow>` 43 times
