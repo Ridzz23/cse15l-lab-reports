@@ -4,7 +4,8 @@
 
 ![Image](logIn.png)
 
-- Keys pressed : `ssh rsrikanth@ieng6.ucsd.edu <enter>` to log into ieng6. I wasn't prompted to enter my password because I have set up the SSH key with my computer.
+Keys pressed :  
+- `ssh rsrikanth@ieng6.ucsd.edu <enter>` to log into ieng6. I wasn't prompted to enter my password because I have set up the SSH key with my computer.
 
 # Step 2 - Clone your fork of the repository from your Github account 
 
