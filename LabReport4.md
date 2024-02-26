@@ -10,12 +10,14 @@ To log into ieng6 I typed `ssh rsrikanth@ieng6.ucsd.edu <enter>`. I wasn't promp
 
 ![Image](clone.png)
 
-Firstly, I typed out `rm -rf l<tab> <enter>` which tab completes the command to `rm -rf lab7/`. This deletes the `lab7` directory which is currently in my ieng6  account. Then I copied `git@github.com:Ridzz23/lab7.git` using the keys `<Command-C>` and ran the command `git clone <Command-V> <enter>` to clone my fork of the `lab7` repository.
+Firstly, I typed out `rm -rf l<tab> <enter>` which tab completes the command to `rm -rf lab7/`. This deletes the `lab7` directory which is currently in my ieng6  account.    
+Then I copied `git@github.com:Ridzz23/lab7.git` using the keys `<Command-C>` and ran the command `git clone <Command-V> <enter>` to clone my fork of the `lab7` repository.
 
 # Step 3 - Run the tests, demonstrating that they fail
 ![Image](failedTests.png)
 
-To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it. Then to run the tests I copied the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`using `<Command-C>` and then ran it on the terminal using the keys `<Command-V> <enter>`. 
+To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it.    
+Then, I pressed `<Command-C> <Command-V> <enter>` to copy the command and run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`.
 
 # Step 4 - Edit the code file to fix the failing test
 
