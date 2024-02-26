@@ -4,20 +4,22 @@
 
 ![Image](logIn.png)
 
-To log into ieng6 I typed `ssh rsrikanth@ieng6.ucsd.edu <enter>`. I wasn't prompted to enter my password because I have set up the SSH key with my computer.
+* Keys pressed : `ssh rsrikanth@ieng6.ucsd.edu <enter>` to log into ieng6. I wasn't prompted to enter my password because I have set up the SSH key with my computer.
 
 # Step 2 - Clone your fork of the repository from your Github account 
 
 ![Image](clone.png)
 
-Firstly, I typed out `rm -rf l<tab> <enter>` which tab completes the command to `rm -rf lab7/`. This deletes the `lab7` directory which is currently in my ieng6  account.    
-Then I pressed the keys `<Command-C> git clone <Command-V> <enter>` to copy the ssh URL `git@github.com:Ridzz23/lab7.git` and clone my fork of the `lab7` repository.
+Keys Pressed : 
+* `rm -rf l<tab> <enter>` which tab completes the command to `rm -rf lab7/`. This deletes the `lab7` directory which is currently in my ieng6  account.    
+* `<Command-C> git clone <Command-V> <enter>` to copy the ssh URL `git@github.com:Ridzz23/lab7.git` and clone my fork of the `lab7` repository.
 
 # Step 3 - Run the tests, demonstrating that they fail
 ![Image](failedTests.png)
 
-To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it.    
-Then, I pressed `<Command-C> <Command-V> <enter>` to copy the command and run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`.
+Keys Pressed : 
+* `<up> <up> <up> <up> <up> <enter>` to compile all java files. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it.    
+* `<Command-C> <Command-V> <enter>` to copy the command and run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`.
 
 # Step 4 - Edit the code file to fix the failing test
 
