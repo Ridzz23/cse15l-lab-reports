@@ -36,6 +36,12 @@
 
 # Step 5 - Run the tests, demonstrating that they now succeed
 
+![Image](passedTests.png)
+
+> To re-run the tests I pressed the keys :
+> - `<up> <up> <up> <enter>` to run the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` which was 3 commands up. This re-compiles all the java files.
+> - `<up> <up> <up> <enter>` to run the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which was 3 commands up. This re-runs the `ListExamplesTests.java` file.
+
 # Step 6 - Commit and push the resulting change to your Github account
 
 
