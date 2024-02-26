@@ -15,7 +15,7 @@ Firstly, I typed out `rm -rf l<tab> <enter>` which tab completes the command to 
 # Step 3 - Run the tests, demonstrating that they fail
 ![Image](failedTests.png)
 
-To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it. Then to run the tests I wrote the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. 
+To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it. Then to run the tests I copied the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`using `<Command-C>` and then pasted it into the terminal using the keys `<Command-V> <enter>`. 
 
 # Step 4 - Edit the code file to fix the failing test
 
