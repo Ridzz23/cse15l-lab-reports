@@ -24,13 +24,13 @@ To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The 
 Firstly, I typed `vim List<tab>.java <enter>` which tab completes to `vim ListExamples.java`. This allows me to enter the file `ListExamples.java` using the text editor `vim`.
 To navigate to the line which needs to be fixed I press the following keys :
 - `<down arrow>` 43 times
-- `<right arrow>` 11 times
+- `<right arrow>` 11 times   
 Now that I have reached the point of error I have to edit it. I press the following keys to do so :
 - `i` to enter insert mode
 - `<right arrow>` to move to the next spot
 - `<Backspace>` to delete the number 1
 - `2` to add the number 2
-- `<esc>` to exit insert mode and enter normal mode
+- `<esc>` to exit insert mode and enter normal mode   
 The change has been made. Now I need to save the changes and exit the text editor. I press `:wq<enter>` to save and exit.
 
 
@@ -40,7 +40,7 @@ The change has been made. Now I need to save the changes and exit the text edito
 
 To re-run the tests I pressed the keys :
 - `<up> <up> <up> <enter>` to run the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` which was 3 commands up. This re-compiles all the java files.
-- `<up> <up> <up> <enter>` to run the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which was 3 commands up. This re-runs the `ListExamplesTests.java` file.
+- `<up> <up> <up> <enter>` to run the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` which was 3 commands up. This re-runs `ListExamplesTests`.
 
 # Step 6 - Commit and push the resulting change to your Github account
 
