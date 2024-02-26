@@ -20,7 +20,7 @@ Keys Pressed :
 
 Keys Pressed : 
 - `<up> <up> <up> <up> <up> <enter>` to compile all java files. The command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` was 5 up in the search history so I used up arrow to access it.    
-- `<Command-C> <Command-V> <enter>` to copy the command and run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`.
+- `<Command-C> <Command-V> <enter>` to copy and run the command run `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`.
 
 # Step 4 - Edit the code file to fix the failing test
 
