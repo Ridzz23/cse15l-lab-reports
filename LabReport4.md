@@ -44,4 +44,8 @@
 
 # Step 6 - Commit and push the resulting change to your Github account
 
+![Image](commit.png)
+
+> First I typed out the command `git add . ` which prepares the current directory (`lab7/`) to be committed. Then I typed `git commit -m "Fixed the error"` which makes the commit with the message "Fixed errors". Finally, I typed `git push` to push the commit to github. 
+
 
