@@ -21,7 +21,7 @@ To compile all the java files I pressed `<up> <up> <up> <up> <up> <enter>`. The 
 
 ![Image](vim.png)
 
-Firstly, I typed `vim List<tab>.java` which tab completes to `vim ListExamples.java`. This allows me to enter the file `ListExamples.java` using the text editor `vim`.
+Firstly, I typed `vim List<tab>.java <enter>` which tab completes to `vim ListExamples.java`. This allows me to enter the file `ListExamples.java` using the text editor `vim`.
 To navigate to the line which needs to be fixed I press the following keys :
 - `<down arrow>` 43 times
 - `<right arrow>` 11 times
@@ -46,6 +46,6 @@ To re-run the tests I pressed the keys :
 
 ![Image](commit.png)
 
-First I typed out the command `git add . ` which prepares the current directory (`lab7/`) to be committed. Then I typed `git commit -m "Fixed the error"` which makes the commit with the message "Fixed errors". Finally, I typed `git push` to push the commit to github. 
+First I typed out the command `git add . <enter>` which prepares the current directory (`lab7/`) to be committed. Then I typed `git commit -m "Fixed the error" <enter>` which makes the commit with the message "Fixed errors". Finally, I typed `git push <enter>` to push the commit to github. 
 
 
