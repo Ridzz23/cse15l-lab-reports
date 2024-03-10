@@ -30,8 +30,8 @@ I would really appreciate it if you could help me out here.
 TA :   
 Hey there, 
 To figure out the exact bug I would suggest running jdb. You could try the following commands to identify the bug :   
-* To compile the code : `javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
-* To run the debugger : `jdb -classpath .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore [Name of your test file]`
+* Compile your code with the `-g` option 
+* Run the debugger
 * Create a break point at the line where your test fails
 * run jdb : you can use the `run` command
 * print the local variables of the array to identify what is going on : `print [variable name]`
@@ -41,10 +41,12 @@ Hopefully this helps you identify the bug.
 Student :    
 
 Hi,   
-I tried what you suggested and it helped thank you. 
+This is the output I got from the commands you suggested :    
 ![Image](jdb.png)
 
 From above, it looks like input1 is changing into `{ 3, 2, 2, 1 }` instead of `{ 3, 2, 1, 0 }`. This is probably because of the expression `arr[i] = arr[arr.length - i - 1];` in the code. When the program reaches the second half of the array, the expression `arr[arr.length - i - 1]` refers to the replaced values of `arr` in the first part of the array. Hence, the values 3 and 2 get repeated in the second half of the array. 
+
+Thanks for the help !
 
 # Part 2 - Reflection
 
