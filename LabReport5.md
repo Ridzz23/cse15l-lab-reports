@@ -2,7 +2,7 @@
 
 # Part 1 - Debugging Scenario
 
-Student :   
+**Student :**  
 Hello, I have been trying to reverse my array in place however some of the junit tests are failing.
 ```
 static void reverseInPlace(int[] arr) {
@@ -27,7 +27,7 @@ The screenshot above indicates that the expected output of the reversal of `{ 0,
 
 I would really appreciate it if you could help me out here.
 
-TA :   
+**TA :**     
 Hey there, 
 To figure out the exact bug I would suggest running jdb. You could try the following commands to identify the bug :   
 * Compile your code with the `-g` option 
@@ -38,7 +38,7 @@ To figure out the exact bug I would suggest running jdb. You could try the follo
 
 Hopefully this helps you identify the bug. 
 
-Student :    
+**Student :**  
 
 Hi,   
 This is the output I got from the commands you suggested :    
