@@ -3,7 +3,7 @@
 # Part 1 - Debugging Scenario
 
 Student :
-Hello, I have been trying to reverse my array in place. The code works fine up till the mid point of the array. After the mid point, it just prints the first half of the array backwards. This is my code :
+Hello, I have been trying to reverse my array in place however some of the junit tests are failing.
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -23,7 +23,21 @@ public void testReverseInPlace2() {
 This is the output I get :
 ![Image](err.png)
 
-The screenshot above indicates that the expected output of the reversal of `{ 0, 1, 2, 3 }` was `{ 3, 2, 1, 0 }` but instead the program produced `{ 3, 2, 2, 1,}`.
+The screenshot above indicates that the expected output of the reversal of `{ 0, 1, 2, 3 }` was `{ 3, 2, 1, 0 }` but instead the program produced something else.
+
+I would really appreciate it if you could help me out here.
+
+TA :
+Hey there, 
+To figure out the exact bug I would suggest running jdb. You could try the following commands to identify the bug :   
+* To compile the code : `javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+* To run the debugger : `jdb -classpath .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore [Name of your test file]`
+* Create a break point at the line where your test fails
+* run jdb : you can use the `run` command
+* print the local variables of the array to identify what is going on : `print [variable name]`
+
+Hopefully this helps you identify the bug. 
+  
 
 # Part 2 - Reflection
 
