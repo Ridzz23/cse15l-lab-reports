@@ -23,6 +23,8 @@ public void testReverseInPlace2() {
 This is the output I get :
 ![Image](err.png)
 
+The screenshot above indicates that the expected output of the reversal of `{ 0, 1, 2, 3 }` was `{ 3, 2, 1, 0 }` but instead the program produced `{ 3, 2, 2, 1,}`.
+
 # Part 2 - Reflection
 
 Overall, this course has been incredibly enlightening. Before this, I had never delved so deeply into terminal usage. Yet, after nine weeks of predominantly terminal-based work, I've grown to value its tool. One aspect that stood out to me was the process of constructing an autograder. Exploring the different ways of building anautograder using bash and java has been quite interesting. 
