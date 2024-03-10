@@ -1,1 +1,31 @@
+# Lab Report 5
+
+# Part 1 - Debugging Scenario
+
+Student :
+Hello, I have been trying to reverse my array in place. The code works fine up till the mid point of the array. After the mid point, it just prints the first half of the array backwards. This is my code :
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+ When I try to run the following test it fails :
+```
+@Test 
+public void testReverseInPlace2() {
+    int[] input1 = { 0, 1, 2, 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3, 2, 1, 0 }, input1);
+}
+```
+This is the output I get :
+![Image](err.png)
+
+# Part 2 - Reflection
+
+Overall, this course has been incredibly enlightening. Before this, I had never delved so deeply into terminal usage. Yet, after nine weeks of predominantly terminal-based work, I've grown to value its tool. One aspect that stood out to me was the process of constructing an autograder. Exploring the different ways of building anautograder using bash and java has been quite interesting. 
+
+
 
