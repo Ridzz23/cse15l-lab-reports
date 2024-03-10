@@ -2,7 +2,7 @@
 
 # Part 1 - Debugging Scenario
 
-Student :
+Student :   
 Hello, I have been trying to reverse my array in place however some of the junit tests are failing.
 ```
 static void reverseInPlace(int[] arr) {
@@ -27,7 +27,7 @@ The screenshot above indicates that the expected output of the reversal of `{ 0,
 
 I would really appreciate it if you could help me out here.
 
-TA :
+TA :   
 Hey there, 
 To figure out the exact bug I would suggest running jdb. You could try the following commands to identify the bug :   
 * To compile the code : `javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
@@ -37,7 +37,14 @@ To figure out the exact bug I would suggest running jdb. You could try the follo
 * print the local variables of the array to identify what is going on : `print [variable name]`
 
 Hopefully this helps you identify the bug. 
-  
+
+Student :    
+
+Hi,   
+I tried what you suggested and it helped thank you. 
+![Image](jdb.png)
+
+From above, it looks like input1 is changing into `{ 3, 2, 2, 1 }` instead of `{ 3, 2, 1, 0 }`. This is probably because of the expression `arr[i] = arr[arr.length - i - 1];` in the code. When the program reaches the second half of the array, the expression `arr[arr.length - i - 1]` refers to the replaced values of `arr` in the first part of the array. Hence, the values 3 and 2 get repeated in the second half of the array. 
 
 # Part 2 - Reflection
 
