@@ -33,7 +33,7 @@ I would really appreciate it if you could help me out here.
 **Master Yoda (The Jedi TA) :**  
 **6 hours ago, on Dagobah**   
     
-Hello there young Jedi,
+Hello there young Jedi,    
 Could you please share your file and directory structure as well as the full command line (or lines) you ran to trigger the bug.     
      
 Help you find the bug, I will !
