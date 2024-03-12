@@ -3,7 +3,7 @@
 # Part 1 - Debugging Scenario
 
 **Luke Skywalker (The Jedi Student) :**  
-**12 hours ago somewhere on Dagobah**   
+**12 hours ago, on Dagobah**   
     
 Hello Master Yoda, 
 I have been trying to reverse my array in place however some of the junit tests are failing. This is my method reverseInPlace() which currently contains a bug :   
@@ -31,6 +31,8 @@ The screenshot above indicates that the expected output of the reversal of `{ 0,
 I would really appreciate it if you could help me out here.
 
 **Yoda (The Jedi TA) :**  
+**6 hours ago, on Dagobah**   
+    
 Hello there young Jedi,
 Could you please share your file and directory structure as well as the full command line (or lines) you ran to trigger the bug.
 
@@ -38,6 +40,8 @@ Help you find the bug, I will.
 
 
 **Luke Skywalker :**  
+**5 hours ago, on Dagobah**   
+    
 Yes of course. This is my file and directory structure :    
 ```
 -lab 3
@@ -140,7 +144,9 @@ These are the commands I ran on the command line which triggered the bug :
 $bash test.sh
 ```
 
-**Yoda :**     
+**Yoda :** 
+**3 hours ago, on Dagobah**   
+    
 Hello there young Skywalker, 
 To figure out the exact bug I would suggest running jdb. You could try the following commands to identify the bug :   
 * Compile your code with the `-g` option 
@@ -152,9 +158,11 @@ To figure out the exact bug I would suggest running jdb. You could try the follo
 Hopefully this helps you identify the bug. 
 Identify the bug, you will.
 
-**Luke Skywalker :**  
+**Luke Skywalker :**
+**2 hours ago, on Dagobah**   
+    
 
-Hi,   
+Hello Master,   
 This is the output I got from the commands you suggested :    
 ![Image](jdb.png)
 
