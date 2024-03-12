@@ -135,7 +135,7 @@ public class ArrayTests {
 
 These are the commands I ran on the command line which triggered the bug : 
 ```
-$ bash test.sh
+$bash test.sh
 ```
 
 **Yoda :**     
