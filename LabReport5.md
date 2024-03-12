@@ -2,7 +2,7 @@
 
 # Part 1 - Debugging Scenario
 
-**Luke Skywalker (The Jedi Student) :**  (12 hours ago somewhere on Dagobah)
+**Luke Skywalker (The Jedi Student) :**  (12 hours ago somewhere on Dagobah)     
 Hello Master Yoda, 
 I have been trying to reverse my array in place however some of the junit tests are failing. This is my method reverseInPlace() which currently contains a bug :   
 ```
