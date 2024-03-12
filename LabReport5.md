@@ -34,9 +34,9 @@ I would really appreciate it if you could help me out here.
 **6 hours ago, on Dagobah**   
     
 Hello there young Jedi,
-Could you please share your file and directory structure as well as the full command line (or lines) you ran to trigger the bug.
-
-Help you find the bug, I will.
+Could you please share your file and directory structure as well as the full command line (or lines) you ran to trigger the bug.     
+     
+Help you find the bug, I will !
 
 
 **Luke Skywalker :**  
@@ -155,8 +155,8 @@ To figure out the exact bug I would suggest running jdb. You could try the follo
 * run jdb : you can use the `run` command
 * print the local variables of the array to identify what is going on : `print [variable name]`
 
-Hopefully this helps you identify the bug. 
-Identify the bug, you will.
+Hopefully this helps you identify the bug.     
+Identify the bug, you will !
 
 **Luke Skywalker :**      
 **2 hours ago, on Dagobah**   
