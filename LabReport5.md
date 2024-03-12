@@ -5,7 +5,7 @@
 **Luke Skywalker (The Jedi Student) :**  
 **12 hours ago, on Dagobah**   
     
-Hello Master Yoda, 
+Hello Master Yoda,    
 I have been trying to reverse my array in place however some of the junit tests are failing. This is my method reverseInPlace() which currently contains a bug :   
 ```
 static void reverseInPlace(int[] arr) {
