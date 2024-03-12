@@ -30,7 +30,7 @@ The screenshot above indicates that the expected output of the reversal of `{ 0,
 
 I would really appreciate it if you could help me out here.
 
-**Yoda (The Jedi TA) :**  
+**Master Yoda (The Jedi TA) :**  
 **6 hours ago, on Dagobah**   
     
 Hello there young Jedi,
@@ -144,7 +144,7 @@ These are the commands I ran on the command line which triggered the bug :
 $bash test.sh
 ```
 
-**Yoda :**     
+**Master Yoda :**     
 **3 hours ago, on Dagobah**   
     
 Hello there young Skywalker, 
