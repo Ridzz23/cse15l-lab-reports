@@ -168,7 +168,7 @@ This is the output I got from the commands you suggested :
 
 From above, it looks like input1 is changing into `{ 3, 2, 2, 1 }` instead of `{ 3, 2, 1, 0 }`. This is probably because of the expression `arr[i] = arr[arr.length - i - 1];` in the code. When the program reaches the second half of the array, the expression `arr[arr.length - i - 1]` refers to the replaced values of `arr` in the first part of the array. Hence, the values 3 and 2 get repeated in the second half of the array.    
 
-To fix the bug, I would have to create another temporary array in which I would store the reversed values. This way the original array wouldn't get changed as I traverse that array. Then at the end I could re-assign the original array's memory address to the temporary array. This way I would be able to change the array in place.   
+To fix the bug, I would have to create another temporary array in which I would store the reversed values. This way the original array wouldn't get changed as I traverse the array. At the end, I could re-assign the original array's memory address to the temporary array. This way I would be able to change the array in place.   
     
 Thanks for the help !
 
