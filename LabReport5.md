@@ -2,8 +2,9 @@
 
 # Part 1 - Debugging Scenario
 
-**Student :**  
-Hello, I have been trying to reverse my array in place however some of the junit tests are failing.
+**Luke Skywalker (The Jedi Student) :**  
+Hello Master Yoda, 
+I have been trying to reverse my array in place however some of the junit tests are failing. This is my method reverseInPlace() which currently contains a bug :   
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -27,8 +28,38 @@ The screenshot above indicates that the expected output of the reversal of `{ 0,
 
 I would really appreciate it if you could help me out here.
 
-**TA :**     
-Hey there, 
+**Yoda (The Jedi TA) :**  
+Hello there young Jedi,
+Could you please share your file and directory structure as well as the full command line (or lines) you ran to trigger the bug.
+
+Help you find the bug, I will.
+
+
+**Luke Skywalker :**  
+Yes of course. This is my file and directory structure :    
+```
+-lab 3
+    - ArrayExamples.java
+    - ArrayTests.java
+    - test.sh
+    - lib
+        - hamcrest-core-1.3
+        - junit-4.13.2
+```
+The file test.sh contains the following code :    
+
+```
+javac -g -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+```
+
+These are the commands I ran on the command line which triggered the bug : 
+```
+$ bash test.sh
+```
+
+**Yoda :**     
+Hello there young Skywalker, 
 To figure out the exact bug I would suggest running jdb. You could try the following commands to identify the bug :   
 * Compile your code with the `-g` option 
 * Run the debugger
@@ -37,8 +68,9 @@ To figure out the exact bug I would suggest running jdb. You could try the follo
 * print the local variables of the array to identify what is going on : `print [variable name]`
 
 Hopefully this helps you identify the bug. 
+Identify the bug, you will.
 
-**Student :**  
+**Luke Skywalker :**  
 
 Hi,   
 This is the output I got from the commands you suggested :    
