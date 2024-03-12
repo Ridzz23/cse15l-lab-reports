@@ -144,7 +144,7 @@ These are the commands I ran on the command line which triggered the bug :
 $bash test.sh
 ```
 
-**Yoda :** 
+**Yoda :**     
 **3 hours ago, on Dagobah**   
     
 Hello there young Skywalker, 
@@ -158,7 +158,7 @@ To figure out the exact bug I would suggest running jdb. You could try the follo
 Hopefully this helps you identify the bug. 
 Identify the bug, you will.
 
-**Luke Skywalker :**
+**Luke Skywalker :**      
 **2 hours ago, on Dagobah**   
     
 
